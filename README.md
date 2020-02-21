@@ -2,7 +2,7 @@
 
 This is a place where I keep snippets of code/notes I need reference of quickly. It is an extension of [my wiki](https://wiki.nikitavoloboev.xyz).
 
-The source of this [GitBook](https://code.nikitavoloboev.xyz) is held on [GitHub](https://github.com/nikitavoloboev/code)
+The source of this [GitBook](https://code.nikitavoloboev.xyz) is on [GitHub](https://github.com/nikitavoloboev/code)
 
 You can access all snippets using search above or [Alfred My Mind](https://github.com/nikitavoloboev/alfred-my-mind).
 
