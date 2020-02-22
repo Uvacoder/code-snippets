@@ -14,7 +14,7 @@ I'd love to hear any [ideas you have](https://github.com/nikitavoloboev/code/iss
 
 ## GitHub Gists
 
-Currently in the process of moving away from GitHub Gists to using this snippets wiki. Here are the gists I shared that I didn't yet move here.
+Currently in the process of moving away from [GitHub Gists](https://gist.github.com/nikitavoloboev) to using this snippets wiki. Here are gists I shared that I didn't yet move here.
 
 ### Code
 
