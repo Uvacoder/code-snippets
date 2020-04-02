@@ -13,3 +13,4 @@
 - [Regex](regex.md)
 - [Nix](nix.md)
 - [macOS defaults](macos-defaults.md)
+- [JXA](jxa.md)

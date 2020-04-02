@@ -1,16 +1,49 @@
 # git
 
-```sh
-# cleanup .git http://gcc.gnu.org/ml/gcc/2007-12/msg00165.html
+```bash
+# Cleanup .git http://gcc.gnu.org/ml/gcc/2007-12/msg00165.html
 git repack -a -d --depth=250 --window=250
 
-# reset to previous commit
+# Reset to previous commit
 git reset HEAD~
-```
 
-```bash
-# Set PGP key for Git globally.
-# <key> = fingerprint w/o spaces
+# Reset to commit
+git reset <commit hash> --hard
+
+# Checkout previous commit
+git checkout HEAD~
+
+# Show where git configs get defined
+git config --show-origin -l
+
+# Undo last commit but don't throw away changes
+git reset --soft HEAD^
+
+# List all git submodules
+git submodule--helper list
+
+# List remote branches
+git branch -a
+
+# Delete remote branch
+git push origin --delete
+
+# Force overwrite git repo. https://stackoverflow.com/questions/10510462/force-git-push-to-overwrite-remote-files
+git push -f <remote> <branch>
+
+# Reset to specific commit
+git reset --hard <commit>
+
+# Remove dir from git
+git rm --cached -r <dir>
+
+# Force push overwrite
+git push --force origin master
+
+# Hard reset a branch
+git reset --hard <branch-name>
+
+# Set PGP key for Git globally. <key> = fingerprint w/o spaces
 git config --global user.signingkey <key>
 ```
 
@@ -22,4 +55,22 @@ git reset --hard HEAD~1
 
 # 2. Delete commit from remote repo (can get commit using git log)
 git push -f origin last_known_good_commit:branch_name
+```
+
+```bash
+# Change old commit message.
+# It is bad practice to rewrite history. Works best if no one has pushed commits on top of remote branch you want to rewrite history of.
+
+# 1. Rebase to commit you want to change (~1 means the first ancestor of the specified commit)
+git rebase -i <hash>~1
+
+# Can also do this
+git rebase -i HEAD~4 # where HEAD~4 = last 3 commits
+
+# 2. Rename pick to reword (in opened editor) & save/quit
+
+# 3. Change commit message in editor and save
+
+# 4. Overwrite and remove duplicate commits
+git push --force-with-lease
 ```
