@@ -62,6 +62,14 @@ echo hello | hexdump -C
 echo hello | iconv -f utf-8 -t utf-16 | hexdump -C
 ```
 
+```bash
+# Search for occurrence of word in a file.
+# i.e. show all occurrences of word fox in file story.txt
+grep 'fox' story.txt
+```
 
-
-
+```bash
+# Search whether a string occurs in a directory
+# -l = print filenames of matching files
+grep -rl "string" /path
+```

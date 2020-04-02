@@ -5,6 +5,7 @@
 - [Git](git.md)
 - [JavaScript](javascript.md)
 - [HTML](html.md)
+- [Go](go.md)
 - [Python](python.md)
 - [Bookmarklets](bookmarklets.md)
 - [GitHub Badges](github-badges.md)
