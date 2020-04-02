@@ -17,3 +17,12 @@
 <!-- Breaking space. Can use in readme to separate things. -->
 &nbsp;
 ```
+
+```html
+<!-- Collapsable content -->
+<details>
+  <summary>Table of Contents</summary>
+
+  * [About](#about) * [Screenshots](#screenshots) * ..
+</details>
+```
