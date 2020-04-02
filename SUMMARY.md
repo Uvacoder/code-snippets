@@ -5,3 +5,4 @@
 - [JavaScript](javascript.md)
 - [Bookmarklets](bookmarklets.md)
 - [GitHub Badges](github-badges.md)
+- [Alfred](alfred.md)
