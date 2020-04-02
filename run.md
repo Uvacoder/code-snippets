@@ -1,4 +1,10 @@
 ```bash
+# Get IP address
+ipconfig getifaddr en0 | pbcopy
+
+# Get macOS version
+defaults read loginwindow SystemVersionStampAsString | pbcopy
+
 # Flash DNS Cache
 sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder
 
