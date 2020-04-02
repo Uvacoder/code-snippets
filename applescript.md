@@ -72,7 +72,7 @@ menu_click({"Safari", "Bookmarks", "Edit Bookmarks"})
 
 ```applescript
 -- Get path of app
-tell application "Finder" to get (POSIX path of (path to application "Sublime Text"))
+POSIX path of (path to application "Sublime Text")
 ```
 
 ```applescript
