@@ -21,3 +21,4 @@
 - [Zsh](zsh.md)
 - [JXA](jxa.md)
 - [AppleScript](applescript.md)
+- [Vim](vim.md)
