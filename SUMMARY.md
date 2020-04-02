@@ -1,5 +1,6 @@
 # Summary
 
+- [CMD](cmd.md)
 - [CMD Run](cmd-run.md)
 - [CMD Explain](cmd-explain.md)
 - [Git](git.md)

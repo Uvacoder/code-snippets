@@ -13,6 +13,15 @@ git reset <commit hash> --hard
 # Checkout previous commit
 git checkout HEAD~
 
+# Create new branch
+git checkout -b
+
+# Revert changes to modified files (working changes)
+git reset --hard
+
+# New branch without git history & files
+git checkout --orphan
+
 # Show where git configs get defined
 git config --show-origin -l
 
@@ -22,8 +31,14 @@ git reset --soft HEAD^
 # List all git submodules
 git submodule--helper list
 
+# Pull from PR
+git pull origin pull/<issue ID>/head
+
 # List remote branches
 git branch -a
+
+# Delete branch
+git branch -d
 
 # Delete remote branch
 git push origin --delete
@@ -37,11 +52,26 @@ git reset --hard <commit>
 # Remove dir from git
 git rm --cached -r <dir>
 
+# Rename previous commit
+git commit --amend
+
 # Force push overwrite
 git push --force origin master
 
 # Hard reset a branch
 git reset --hard <branch-name>
+
+# Change remote. i.e. when making a fork of a clone to change upstream destination.
+git remote rename origin upstream; git remote rename nikitavoloboev origin
+
+# Change upstream to my name so it pushes there
+git branch --set-upstream-to nikitavoloboev/master master
+
+# Show changes between commits. Where f5352 and be73 are unique commit hashes.
+git diff f5352 be73
+
+# Update submodule
+git submodule update
 
 # Set PGP key for Git globally. <key> = fingerprint w/o spaces
 git config --global user.signingkey <key>
