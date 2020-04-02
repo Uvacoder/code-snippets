@@ -22,3 +22,4 @@
 - [JXA](jxa.md)
 - [AppleScript](applescript.md)
 - [Vim](vim.md)
+- [Config](config.md)
