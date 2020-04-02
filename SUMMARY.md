@@ -1,6 +1,7 @@
 # Summary
 
-- [Run](run.md)
+- [CMD Run](cmd-run.md)
+- [CMD Explain](cmd-explain.md)
 - [Git](git.md)
 - [JavaScript](javascript.md)
 - [HTML](html.md)
@@ -10,3 +11,4 @@
 - [Alfred](alfred.md)
 - [Regex](regex.md)
 - [Nix](nix.md)
+- [macOS defaults](macos-defaults.md)
