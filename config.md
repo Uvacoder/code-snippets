@@ -1,202 +1,76 @@
 ## Config
 
-#### macOS apps I have installed
+###### macOS apps I have installed
 
 ```bash
 # Output of `ls /Applications`
 1Password 7.app
 2Do.app
-Ableton Live 10 Trial.app
-Affinity Designer.app
-Affinity Photo.app
-Airtable.app
 Alfred 4.app
 Alfred Metadata Tool.app
-Anaconda-Navigator.app
-Android Studio.app
-Anki.app
-Annotate.app
-App Store.app
 Arq.app
-Audio Hijack.app
-Audiobook Wizard.app
-Automator.app
-Bartender 3.app
-BeardedSpice.app
-Bee.app
 BetterTouchTool.app
-Birthdays.app
-Books.app
-Brisk.app
-Calculator.app
-Calendar.app
-Canopy.app
-Caprine.app
-Cascadea.app
-Chess.app
 CleanShot.app
-Conferences.app
-Contacts.app
 Contexts.app
-DaisyDisk.app
-Dark Reader for Safari.app
 Dash.app
-Dashboard.app
-Day One.app
-Deckset.app
 Deliveries.app
-DevHub.app
-Diagnostics.app
-Dictionary.app
 Discord.app
 Docker.app
 Dropbox.app
-Dropzone 3.app
-FaceTime.app
+Dropzone 4.app
 Fantastical.app
 Figma.app
 Final Cut Pro.app
-Firefox Nightly.app
-Fission.app
-Flipper.app
-Flume.app
-Font Book.app
-Forecast.app
-Framer X.app
-GPG Keychain.app
-Gifski.app
 Google Chrome Canary.app
-Hammerspoon.app
-Home.app
-Hopper Disassembler v4.app
-HoudahSpot.app
 IINA.app
-Image Capture.app
-ImageOptim.app
-JetBrains Toolbox.app
-Just Press Record.app
-Kap.app
 Karabiner-Elements.app
 Karabiner-EventViewer.app
-Keka.app
-KeyCastr.app
-Keybase.app
-Keyboard Lock.app
 Keyboard Maestro.app
 Keynote.app
-KubeContext.app
-Latest.app
 LaunchControl.app
-Launchpad.app
-Little Snitch Configuration.app
-Loom.app
-Loopback.app
-Lungo.app
-MacUpdater.app
-Magic Number 2.app
-Mail.app
-Maps.app
 Marked 2.app
-Messages.app
-MindNode.app
-Mission Control.app
-Monodraw.app
-Name Mangler.app
-NativeConnect.app
-News.app
 Noizio.app
-Notes.app
 Notion.app
 Numbers.app
 OBS.app
-Onivim2.App
 PDF Expert.app
 Pages.app
 Paprika Recipe Manager 3.app
 Paw.app
-Photo Booth.app
-Photos.app
 Pixave.app
 PixelSnap 2.app
 Pixelmator Pro.app
-Pocket.app
 PopClip.app
-Port Manager.app
-Postgres.app
 Postico 2.app
-Preview.app
-Private Internet Access.app
 Proxyman.app
-QuickTime Player.app
-React Native Debugger.app
 Reeder.app
-Reminders.app
-RetroClip.app
-RunJS.app
 Safari Technology Preview.app
 Safari.app
+Screen.app
 ScreenFlow.app
-Script Debugger.app
-Sequel Pro.app
-Shifty.app
-Sidify Music Converter.app
 Sip.app
-Siri.app
-Sketch.app
 Slack.app
-Sloth.app
-SnippetsLab.app
-Soulver 3.app
 Spark.app
-Spectrum.app
 Spotify.app
-Stickies.app
-Stocks.app
-Sublime Merge.app
 Sublime Text.app
-Superposition.app
-SwiftPM Catalog.app
 Syncalicious.app
-SyphonInject.app
-System Preferences.app
-TablePlus.app
-TaskPaper.app
-TeamViewer.app
 Telegram.app
-TextEdit.app
-Textual.app
-Time Machine.app
-Timing.app
-TinkerTool.app
-Tokens.app
-ToothFairy.app
+Textual 7.app
 Tor Browser.app
 Tower.app
 Transmission.app
-Transmit.app
 Trello.app
 Tweetbot.app
 Typinator.app
-UI Browser.app
-UlyssesMac.app
 Utilities
-Vimac.app
 Vimari.app
-Visual Studio Code.app
-VoiceMemos.app
+Visual Studio Code - Insiders.app
 WWDC.app
 WhatsApp.app
-WiFi Explorer.app
 Wipr.app
-WireGuard.app
+Xcode-beta.app
 Xcode.app
-Zotero.app
-apps
-broxy.app
-iStat Menus.app
 iTerm.app
-iTunes.app
-nteract.app
 zoom.us.app
 ```
 
