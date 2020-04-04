@@ -1,6 +1,6 @@
 ## Config
 
-##### macOS apps I have installed
+#### macOS apps I have installed
 
 ```bash
 # Output of `ls /Applications`
@@ -200,8 +200,9 @@ nteract.app
 zoom.us.app
 ```
 
+#### sVim settings
+
 ```bash
-# sVim settings
 let scrollstep = 120
 
 " Unmap defaults
@@ -262,8 +263,9 @@ map "w" toggleReader
 let blacklists = ["*://codepen.io/*", "*://draw.io/*", "*://glitch.com/*", "*://*slack.com/*", "*://codesandbox.io/*", "*://codewars.com/*", "*://discordapp.com/*", "://gitter.im/*"]
 ```
 
+#### sVim CSS settings
+
 ```css
-/* sVim CSS settings */
 @-webkit-keyframes fadein {
   from {
     opacity: 0;
@@ -338,8 +340,9 @@ sVim-hint {
 }
 ```
 
+#### CLI tools I use
+
 ```bash
-# CLI tools I use
 # Brew (/usr/local/bin)
 agda
 antibody
