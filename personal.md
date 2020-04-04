@@ -1,4 +1,4 @@
-Inoreader subscriptions
+Inoreader RSS subscriptions exported. Can be imported into RSS feed reader of your choice.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
