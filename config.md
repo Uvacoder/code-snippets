@@ -1,6 +1,6 @@
 ## Config
 
-###### macOS apps I have installed
+##### macOS apps I have installed
 
 ```bash
 # Output of `ls /Applications`
