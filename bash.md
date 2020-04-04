@@ -44,3 +44,9 @@ fi
 # Reads and executes commands from filename in the current shell environment
 source script
 ```
+
+```bash
+# need to wrap the cd command inside () to run it in scope of the cd
+# i.e. pod install will be run inside ios dir
+(cd ios && pod install)
+```

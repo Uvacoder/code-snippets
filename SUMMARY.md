@@ -23,4 +23,3 @@
 - [AppleScript](applescript.md)
 - [Vim](vim.md)
 - [Config](config.md)
-- [Personal](personal.md)
