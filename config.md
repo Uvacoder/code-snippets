@@ -1,5 +1,9 @@
+## Config
+
+##### macOS apps I have installed
+
 ```bash
-# macOS apps I have installed. Output of `ls /Applications`
+# Output of `ls /Applications`
 1Password 7.app
 2Do.app
 Ableton Live 10 Trial.app
