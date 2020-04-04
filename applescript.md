@@ -158,8 +158,7 @@ nodeList;
 tell application "Safari"
   set linkList to (do JavaScript strJS in front document)
 
-  if linkList ≠ "" then
-    set AppleScript's text item delimiters to linefeed
+  if linkList ≠ {} then
     set firstLink to item 1 of linkList
     set URL of front document to firstLink
   end if
