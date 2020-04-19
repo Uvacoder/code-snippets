@@ -87,8 +87,10 @@ git reset --hard HEAD~1
 git push -f origin last_known_good_commit:branch_name
 ```
 
+#### Change old commit message
+
 ```bash
-# Change old commit message.
+#
 # It is bad practice to rewrite history. Works best if no one has pushed commits on top of remote branch you want to rewrite history of.
 
 # 1. Rebase to commit you want to change (~1 means the first ancestor of the specified commit)
@@ -103,4 +105,12 @@ git rebase -i HEAD~4 # where HEAD~4 = last 3 commits
 
 # 4. Overwrite and remove duplicate commits
 git push --force-with-lease
+```
+
+#### [Quickly pull down PRs](https://davidwalsh.name/5-essential-git-commands-and-utilities)
+
+```bash
+git config --global --add alias.pr '!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
+
+git config --global --add alias.pr-clean '!git checkout master ; git for-each-ref refs/heads/pr/* --format="%(refname)" | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done'
 ```
