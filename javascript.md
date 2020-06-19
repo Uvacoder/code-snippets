@@ -15,3 +15,8 @@ for (let [i, v] of [...buttons].entries()) {
 // Go to specific URL
 window.location.href = "https://www.google.com";
 ```
+
+```js
+// Speed up video playback. Put in console of open page.
+$("video").playbackRate = 2;
+```
