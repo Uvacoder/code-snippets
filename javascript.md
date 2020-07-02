@@ -20,3 +20,10 @@ window.location.href = "https://www.google.com";
 // Speed up video playback. Put in console of open page.
 $("video").playbackRate = 2;
 ```
+
+```js
+// click on all the expand buttons on https://github.com/
+var inputs = document.querySelectorAll("svg[aria-label=Expand]");
+var buttons = Array.from(inputs).map((e) => e.parentElement.parentElement);
+buttons.forEach((b) => b.click());
+```
