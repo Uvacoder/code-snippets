@@ -111,10 +111,9 @@ map "shift+r" closeTabsToRight
 map "shift+z" lastClosedTabBackground
 map "shift+w" closeTabLeft
 map "shift+e" closeTabRight
-map "shift+z" lastClosedTab
+"map "shift+z" lastClosedTab
 map "shift+d" parentDirectory
 map "shift+g" topDirectory
-map "shift+z" lastClosedTabBackground
 map "shift+h" topDirectory
 map "shift+j" goBack
 map "shift+k" goForward
@@ -490,4 +489,36 @@ prettier
 qnm
 webpack
 webpack-dev-server
+```
+
+##### Vimari config
+
+```json
+{
+  "excludedUrls": "",
+  "linkHintCharacters": "werafjkl:",
+  "detectByCursorStyle": false,
+  "scrollSize": 150,
+  "openTabUrl": "",
+  "modifier": "",
+  "smoothScroll": true,
+  "scrollDuration": 25,
+  "bindings": {
+    "hintToggle": "f",
+    "newTabHintToggle": "shift+f",
+    "scrollUp": "k",
+    "scrollDown": "j",
+    "scrollLeft": "h",
+    "scrollRight": "l",
+    "goToPageTop": "g g",
+    "goToPageBottom": "shift+g",
+    "goToFirstInput": ":",
+    "goBack": "shift+j",
+    "goForward": "shift+k",
+    "reload": "r",
+    "tabBack": "a",
+    "tabForward": "w",
+    "closeTab": "e"
+  }
+}
 ```
