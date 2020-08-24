@@ -90,145 +90,6 @@ iTerm.app
 zoom.us.app
 ```
 
-##### sVim settings
-
-```bash
-let scrollstep = 120
-
-" Unmap defaults
-unmap "z i"
-unmap "z o"
-unmap "z 0"
-unmap "g i"
-unmap "g r"
-
-" Neat shortcuts
-map "v" goToInput
-" map "c" lastClosedTab
-" map "q" zoomPageIn
-" map "m" zoomPageOut
-" map "o" zoomPageIn
-map "e" quit
-map "d" createHint
-map "f" createTabbedHint
-map "o" moveTabLeft
-map "p" moveTabRight
-
-
-" Shift mappings
-map "shift+i" quit
-map "shift+f" lastActiveTab
-map "shift+a" firstTab
-map "shift+s" lastTab
-map "shift+n" scrollFullPageDown
-map "shift+m" scrollFullPageUp
-"map "shift+m" scrollPageUp
-map "shift+r" closeTabsToRight
-map "shift+z" lastClosedTabBackground
-map "shift+w" closeTabLeft
-map "shift+e" closeTabRight
-"map "shift+z" lastClosedTab
-map "shift+d" parentDirectory
-map "shift+g" topDirectory
-map "shift+h" topDirectory
-map "shift+j" goBack
-map "shift+k" goForward
-
-" G multi binds
-map "g g" showsVimrc
-
-" Amazing navigation
-" map "w" moveTabRight
-" map "q" moveTabLeft
-map "s" nextTab
-map "a" previousTab
-map "b" scrollToBottom
-map "n" scrollToTop
-
-map ":" toggleReader
-map "w" toggleReader
-
-" Settings
-let blacklists = ["*://codepen.io/*", "*://draw.io/*", "*://glitch.com/*", "*://*slack.com/*", "*://codesandbox.io/*", "*://codewars.com/*", "*://discordapp.com/*", "://gitter.im/*"]
-```
-
-##### sVim CSS settings
-
-```css
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-#sVim-command {
-  -webkit-animation: fadein 0.2s !important;
-  -webkit-appearance: none !important;
-  background-color: rgba(0, 0, 0, 0.8) !important;
-  background-position: none !important;
-  background-repeat: none !important;
-  border-radius: 0 !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  box-sizing: content-box !important;
-  color: #ffffff !important;
-  display: none;
-  font-family: "Helvetica Neue" !important;
-  font-size: 13px !important;
-  font-style: normal !important;
-  left: 0 !important;
-  letter-spacing: normal !important;
-  line-height: 1 !important;
-  margin: 0 !important;
-  min-height: 0 !important;
-  outline-style: none !important;
-  outline: 0 !important;
-  padding: 2px 0 0 10px !important;
-  position: fixed !important;
-  right: 0 !important;
-  text-align: start !important;
-  text-indent: 0px !important;
-  text-shadow: none !important;
-  text-transform: none !important;
-  vertical-align: none !important;
-  width: 100% !important;
-  word-spacing: normal !important;
-  z-index: 2147483647 !important;
-}
-
-/*
-.sVim-hint {
-  background-color: #FFFF01;
-  color: #000000;
-  font-size: 10pt;
-  font-family: monospace;
-  line-height: 10pt;
-  padding: 0px;
-  opacity: 0.7;
-}
-*/
-
-sVim-hint {
-   background-color: #df6f00;
-   font-weight: bold;
-   opacity: 1;
-   padding: 1px;
-   text-shadow: 0 0 2px black;
-}
-
-.sVim-hint.sVim-hint-form {
-  background-color: #3efeff;
-}
-
-.sVim-hint.sVim-hint-focused {
-  opacity: 1;
-  font-weight: bold;
-}
-```
-
 ##### CLI tools I use
 
 ```bash
@@ -536,5 +397,144 @@ webpack-dev-server
     "tabForward": "w",
     "closeTab": "e"
   }
+}
+```
+
+##### sVim settings
+
+```bash
+let scrollstep = 120
+
+" Unmap defaults
+unmap "z i"
+unmap "z o"
+unmap "z 0"
+unmap "g i"
+unmap "g r"
+
+" Neat shortcuts
+map "v" goToInput
+" map "c" lastClosedTab
+" map "q" zoomPageIn
+" map "m" zoomPageOut
+" map "o" zoomPageIn
+map "e" quit
+map "d" createHint
+map "f" createTabbedHint
+map "o" moveTabLeft
+map "p" moveTabRight
+
+
+" Shift mappings
+map "shift+i" quit
+map "shift+f" lastActiveTab
+map "shift+a" firstTab
+map "shift+s" lastTab
+map "shift+n" scrollFullPageDown
+map "shift+m" scrollFullPageUp
+"map "shift+m" scrollPageUp
+map "shift+r" closeTabsToRight
+map "shift+z" lastClosedTabBackground
+map "shift+w" closeTabLeft
+map "shift+e" closeTabRight
+"map "shift+z" lastClosedTab
+map "shift+d" parentDirectory
+map "shift+g" topDirectory
+map "shift+h" topDirectory
+map "shift+j" goBack
+map "shift+k" goForward
+
+" G multi binds
+map "g g" showsVimrc
+
+" Amazing navigation
+" map "w" moveTabRight
+" map "q" moveTabLeft
+map "s" nextTab
+map "a" previousTab
+map "b" scrollToBottom
+map "n" scrollToTop
+
+map ":" toggleReader
+map "w" toggleReader
+
+" Settings
+let blacklists = ["*://codepen.io/*", "*://draw.io/*", "*://glitch.com/*", "*://*slack.com/*", "*://codesandbox.io/*", "*://codewars.com/*", "*://discordapp.com/*", "://gitter.im/*"]
+```
+
+##### sVim CSS settings
+
+```css
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#sVim-command {
+  -webkit-animation: fadein 0.2s !important;
+  -webkit-appearance: none !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  background-position: none !important;
+  background-repeat: none !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+  color: #ffffff !important;
+  display: none;
+  font-family: "Helvetica Neue" !important;
+  font-size: 13px !important;
+  font-style: normal !important;
+  left: 0 !important;
+  letter-spacing: normal !important;
+  line-height: 1 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  outline-style: none !important;
+  outline: 0 !important;
+  padding: 2px 0 0 10px !important;
+  position: fixed !important;
+  right: 0 !important;
+  text-align: start !important;
+  text-indent: 0px !important;
+  text-shadow: none !important;
+  text-transform: none !important;
+  vertical-align: none !important;
+  width: 100% !important;
+  word-spacing: normal !important;
+  z-index: 2147483647 !important;
+}
+
+/*
+.sVim-hint {
+  background-color: #FFFF01;
+  color: #000000;
+  font-size: 10pt;
+  font-family: monospace;
+  line-height: 10pt;
+  padding: 0px;
+  opacity: 0.7;
+}
+*/
+
+sVim-hint {
+   background-color: #df6f00;
+   font-weight: bold;
+   opacity: 1;
+   padding: 1px;
+   text-shadow: 0 0 2px black;
+}
+
+.sVim-hint.sVim-hint-form {
+  background-color: #3efeff;
+}
+
+.sVim-hint.sVim-hint-focused {
+  opacity: 1;
+  font-weight: bold;
 }
 ```
