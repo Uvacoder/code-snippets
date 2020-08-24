@@ -1,6 +1,6 @@
 # Keyboard Maestro
 
-##### System Clipboard variable
+### System Clipboard variable
 
 ```
 %SystemClipboard%

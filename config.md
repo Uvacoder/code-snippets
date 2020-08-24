@@ -1,6 +1,6 @@
 ## Config
 
-##### macOS apps I have installed
+### macOS apps I have installed
 
 ```bash
 # Output of `ls /Applications`
@@ -90,7 +90,7 @@ iTerm.app
 zoom.us.app
 ```
 
-##### CLI tools I use
+### CLI tools I use
 
 ```bash
 # Brew (/usr/local/bin)
@@ -368,7 +368,7 @@ webpack
 webpack-dev-server
 ```
 
-##### Vimari config
+### Vimari config
 
 ```json
 {
@@ -400,7 +400,7 @@ webpack-dev-server
 }
 ```
 
-##### sVim settings
+### sVim settings
 
 ```bash
 let scrollstep = 120
@@ -462,7 +462,7 @@ map "w" toggleReader
 let blacklists = ["*://codepen.io/*", "*://draw.io/*", "*://glitch.com/*", "*://*slack.com/*", "*://codesandbox.io/*", "*://codewars.com/*", "*://discordapp.com/*", "://gitter.im/*"]
 ```
 
-##### sVim CSS settings
+### sVim CSS settings
 
 ```css
 @-webkit-keyframes fadein {

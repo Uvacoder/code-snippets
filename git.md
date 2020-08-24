@@ -87,7 +87,7 @@ git reset --hard HEAD~1
 git push -f origin last_known_good_commit:branch_name
 ```
 
-#### Change old commit message
+### Change old commit message
 
 ```bash
 #
@@ -107,7 +107,7 @@ git rebase -i HEAD~4 # where HEAD~4 = last 3 commits
 git push --force-with-lease
 ```
 
-#### [Quickly pull down PRs](https://davidwalsh.name/5-essential-git-commands-and-utilities)
+### [Quickly pull down PRs](https://davidwalsh.name/5-essential-git-commands-and-utilities)
 
 ```bash
 git config --global --add alias.pr '!f() { git fetch -fu ${2:-upstream} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
