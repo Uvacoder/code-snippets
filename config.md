@@ -538,3 +538,13 @@ sVim-hint {
   font-weight: bold;
 }
 ```
+
+### Prettier
+
+```js
+module.exports = {
+  semi: false,
+  singleQuote: true,
+  tabWidth: 2,
+};
+```
