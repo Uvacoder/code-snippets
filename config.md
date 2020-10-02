@@ -368,7 +368,7 @@ webpack
 webpack-dev-server
 ```
 
-### Vimari config
+### Vimari
 
 ```json
 {
