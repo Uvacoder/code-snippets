@@ -6,85 +6,53 @@
 # Output of `ls /Applications`
 1Password 7.app
 2Do.app
-Airtable.app
 Alfred 4.app
-Alfred Metadata Tool.app
+Android Studio.app
 AppCleaner.app
-Arq.app
+Aviary.app
 BetterTouchTool.app
 CleanShot X.app
-Contexts.app
+Darkroom.app
 Dash.app
-Day One.app
 Deliveries.app
-Developer.app
 Discord.app
 Docker.app
-Dropbox.app
 Fantastical.app
 Figma.app
-Final Cut Pro.app
-Firefox Developer Edition.app
-Flume.app
 Google Chrome Canary.app
 IINA.app
-ImageOptim.app
 Karabiner-Elements.app
 Karabiner-EventViewer.app
 Keyboard Maestro.app
-Keynote.app
-LaunchControl.app
-Linear.app
 Loom.app
-MacUpdater.app
 Marked 2.app
 MindNode.app
 Notion.app
-Numbers.app
-OBS.app
-Obsidian.app
-PDF Expert.app
-Pages.app
-Paprika Recipe Manager 3.app
 Paw.app
 Pixave.app
-PixelSnap 2.app
 Pixelmator Pro.app
-Poolside FM.app
-PopClip.app
-Postgres.app
 Postico 2.app
 Proxyman.app
 Reeder.app
-SF Symbols beta.app
-Safari Technology Preview.app
 Safari.app
-Screen.app
-ScreenFlow.app
 Sip.app
 Slack.app
 Spark.app
+Spline.app
 Spotify.app
 Sublime Merge.app
 Sublime Text.app
 Syncalicious.app
 Telegram.app
 Textual 7.app
-Tor Browser.app
-Tower.app
 Transmission.app
-Transmit.app
-Trello.app
 Tweetbot.app
-Typinator.app
-UlyssesMac.app
 Utilities
 Vimari.app
+Visly.app
 Visual Studio Code - Insiders.app
-WWDC.app
 WhatsApp.app
 Wipr.app
-Xcode-beta.app
 Xcode.app
 iTerm.app
 zoom.us.app
