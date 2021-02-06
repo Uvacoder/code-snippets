@@ -6,6 +6,10 @@ The source of this [GitBook](https://code.nikitavoloboev.xyz) is on [GitHub](htt
 
 You can access all snippets using search above or [Alfred My Mind](https://github.com/nikitavoloboev/alfred-my-mind).
 
+## EpicTools.dev
+
+This wiki is now moved to [epictools.dev](https://epictools.dev/) using [Dendron](https://dendron.so/).
+
 ## Other code collections
 
 - [Josh Comeau's snippets](https://joshwcomeau.com/snippets/)
