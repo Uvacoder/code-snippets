@@ -1,20 +1,8 @@
 # [My Code Snippets](https://code.nikitavoloboev.xyz)
 
-This is a place where I keep snippets of code/notes/config. It is an extension of [my wiki](https://wiki.nikitavoloboev.xyz).
+This wiki is now moved to [epictools.dev](https://epictools.dev/) using [Dendron](https://dendron.so/) to create and publish notes.
 
-The source of this [GitBook](https://code.nikitavoloboev.xyz) is on [GitHub](https://github.com/nikitavoloboev/code).
-
-You can access all snippets using search above or [Alfred My Mind](https://github.com/nikitavoloboev/alfred-my-mind).
-
-## EpicTools.dev
-
-This wiki is now moved to [epictools.dev](https://epictools.dev/) using [Dendron](https://dendron.so/).
-
-## Other code collections
-
-- [Josh Comeau's snippets](https://joshwcomeau.com/snippets/)
-
-Don't be afraid to create one of your own collections & share it with the world.
+The source of this [GitBook](https://code.nikitavoloboev.xyz) is on [GitHub](https://github.com/nikitavoloboev/code). It will be removed soon as I get more familiar with Dendron.
 
 ## Contributing
 
